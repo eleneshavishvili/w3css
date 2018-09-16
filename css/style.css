@@ -1,0 +1,79 @@
+.cover{
+    background: url("../images/note.jpg") no-repeat center;
+    background-size: cover;
+    padding: 140px 100px;
+    height: 650px;   
+    color: #ffffff;
+}
+
+.cover h1 {
+    text-transform: capitalize;
+    font-weight: 800px;
+    font-size: 50px;
+}
+
+.cover hr{
+    border-width: 3px;
+    border-color: #ff3333;
+    width: 400px;
+    margin: auto;
+}
+
+.cover p{
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+
+/*      */
+
+
+.section {
+    padding: 40px;
+}
+
+.section h2 {
+    margin:0px;
+    padding: 0px;
+    font-weight: 800px; 
+}
+
+.section .fa {
+    font-size:50px;
+    font-weight: 50px;
+
+} 
+
+
+.section img{
+    width: 100%;
+}
+
+
+#About {
+    background-color: #f2e6ff;
+    color:red;
+    }
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .cover {
+    padding: 150px 20px;
+    }
+    .cover h1 {
+    font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
